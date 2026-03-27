@@ -14,3 +14,15 @@ export const API_OPTIONS = {
       "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiI2YzBhNTYwY2Y5MmQzYzFiMTAxMDQ2ZDc2ZWU2YWIxYiIsIm5iZiI6MTY4MjE4MzMzMi43NjcsInN1YiI6IjY0NDQxNGE0MDU4MjI0MDRiZjMyY2I5OCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.uW1rP3GxBvQhXMrG3kTTAs7ib4iYA2fm14ziTuIoJK8",
   },
 };
+
+export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500/";
+
+export const BG_IMG_URL =
+  "https://assets.nflxext.com/ffe/siteui/vlv3/eb110559-67e9-40ec-8f1c-4a45b9f9c9bb/web/IN-en-20260309-TRIFECTA-perspective_6796824d-3538-42c9-95e0-baabc0fdbadf_small.jpg";
+
+export const SUPPORTED_LANGUAGES = [
+  { identifier: "en", name: "English" },
+  { identifier: "np", name: "Nepali" },
+  { identifier: "hindi", name: "Hindi" },
+  { identifier: "spainsh", name: "Spanish" },
+];
